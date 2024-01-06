@@ -1,0 +1,18 @@
+<dependencies>
+  <compile
+      roots="L:\unity projects\CubeDash\Library\Bee\Android\Prj\Mono2x\Gradle@@:unityLibrary::release">
+    <dependency
+        name="L:\unity projects\CubeDash\Library\Bee\Android\Prj\Mono2x\Gradle@@:unityLibrary::release"
+        simpleName="Gradle:unityLibrary"/>
+  </compile>
+  <package
+      roots="L:\unity projects\CubeDash\Library\Bee\Android\Prj\Mono2x\Gradle@@:unityLibrary::release,__local_aars__:L:\unity projects\CubeDash\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\libs\classes.jar:unspecified@jar,__local_aars__:L:\unity projects\CubeDash\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\libs\unity-classes.jar:unspecified@jar">
+    <dependency
+        name="L:\unity projects\CubeDash\Library\Bee\Android\Prj\Mono2x\Gradle@@:unityLibrary::release"
+        simpleName="Gradle:unityLibrary"/>
+    <dependency
+        name="__local_aars__:L:\unity projects\CubeDash\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\libs\classes.jar:unspecified@jar"/>
+    <dependency
+        name="__local_aars__:L:\unity projects\CubeDash\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\libs\unity-classes.jar:unspecified@jar"/>
+  </package>
+</dependencies>
